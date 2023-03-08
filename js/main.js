@@ -1,5 +1,5 @@
 const torrentId =
-  "magnet:?xt=urn:btih:65b7757cf59ef9f7818537f92975cb2a35686b74&dn=Iron.Man.2008.REMASTERED.PROPER.1080p.BluRay.x265-RARBG&tr=http%3A%2F%2Ftracker.trackerfix.com%3A80%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2930&tr=udp%3A%2F%2F9.rarbg.to%3A2760&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com";
+  "magnet:?xt=urn:btih:223f7484d326ad8efd3cf1e548ded524833cb77e&dn=Avengers+Endgame+(2019)+%5BBluRay%5D+%5B1080p%5D+%5BYTS.LT%5D&tr=udp%3A%2F%2Ftracker.opentrackr.org%3A1337%2Fannounce&tr=udp%3A%2F%2Fopen.tracker.cl%3A1337%2Fannounce&tr=udp%3A%2F%2F9.rarbg.me%3A2970%2Fannounce&tr=udp%3A%2F%2Fp4p.arenabg.com%3A1337%2Fannounce&tr=udp%3A%2F%2Ftracker.torrent.eu.org%3A451%2Fannounce&tr=udp%3A%2F%2Ftracker.dler.org%3A6969%2Fannounce&tr=udp%3A%2F%2Fopen.stealth.si%3A80%2Fannounce&tr=udp%3A%2F%2Fipv4.tracker.harry.lu%3A80%2Fannounce&tr=https%3A%2F%2Fopentracker.i2p.rocks%3A443%2Fannounce&tr=wss%3A%2F%2Ftracker.btorrent.xyz&tr=wss%3A%2F%2Ftracker.openwebtorrent.com";
 
 const client = new WebTorrent();
 
@@ -11,8 +11,9 @@ const $uploadSpeed = document.querySelector("#uploadSpeed");
 const $downloadSpeed = document.querySelector("#downloadSpeed");
 const $video = document.querySelector("#video");
 
+console.log(convertToVTT("../subs/Vietnamese.srt"));
+
 function download() {
-  console.log("download");
   // Download the torrent
   client.add(torrentId, function (torrent) {
     // Torrents can contain many files. Let's use the .mp4 file
@@ -21,21 +22,35 @@ function download() {
     });
 
     let check = false;
-    var player = videojs("video");
-    player.addClass("vjs-fluid");
+    // var player = videojs("video");
+    // player.addClass("vjs-fluid");
     torrent.on("download", function () {
       if (!check) {
         check = true;
         var player = videojs("video");
-        player.addClass("vjs-fluid");
+        // player.addClass("vjs-fluid");
         file.getStreamURL((err, url) => {
           if (err) throw err;
-          //video.poster(poster);
           player.src({
             src: url,
             type: "video/mp4",
           });
           player.play();
+
+          //   //console.log(convertToVTT('../subs/Vietnamese.srt'))
+          //   // Add subtitles
+          //   const track = player.addRemoteTextTrack({
+          //     src: convertToVTT('../subs/Vietnamese.srt'),
+          //     label: 'Vietnamese',
+          //     kind: 'subtitles',
+          //     srclang: 'vi',
+          //     default: true
+          //   });
+          //   player.textTracks().addTrack(track);
+          //   var tracks = player.textTracks();
+          //   tracks[0].enable;
+
+          //
         });
       }
     });
