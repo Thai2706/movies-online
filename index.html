@@ -154,31 +154,16 @@
         </div>
       </div>
     </nav>
-    <div id="hero">
-      <div id="output">
-        <div id="progressBar"></div>
-        <video
-          width="900"
-          height="400"
-          autoplay="true"
-          id="video"
-          class="video-js vjs-default-skin"
-          controls
-          preload="auto"
-          data-setup="{}"
-        ></video>
-
-        <!-- The video player will be added here -->
-      </div>
-      <!-- Statistics -->
-      <div id="status">
-        <div>
-          <code id="downloaded"></code>
-          Down speed: <code id="downloadSpeed">0 b/s</code> / Up speed:
-          <code id="uploadSpeed">0 b/s</code>
-        </div>
-      </div>
+    <div id="player-wrapper">
+      <iframe
+        id="player"
+        width="640"
+        height="360"
+        src="https://short.ink/D2dujwQe2D"
+        frameborder="0"
+        scrolling="0"
+        allowfullscreen
+      ></iframe>
     </div>
-    <script src="js/main.js"></script>
   </body>
 </html>

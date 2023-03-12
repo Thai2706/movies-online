@@ -92,3 +92,14 @@ a:visited {
 .nav-link {
   color: white !important;
 }
+
+#player-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#player {
+  width: 80%;
+  height: 600px;
+}
