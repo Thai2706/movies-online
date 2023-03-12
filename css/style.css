@@ -1,5 +1,5 @@
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 #output video {
@@ -60,7 +60,7 @@ a:visited {
 
 .search-box {
   appearance: none;
-  border-radius: .8rem;
+  border-radius: 0.8rem;
   border-top-right-radius: 0rem;
   border-bottom-right-radius: 0rem;
   color: white;
@@ -86,7 +86,7 @@ a:visited {
 }
 
 .dropdown-item {
-  color: white!important;
+  color: white !important;
 }
 
 .nav-link {
