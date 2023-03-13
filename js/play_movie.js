@@ -2,7 +2,7 @@
 const urlParams = new URLSearchParams(window.location.search);
 const param = urlParams.get('id');
 
-fetch('json/movies.json')
+fetch("movies-online/json/movies.json")
     .then((response) => response.json())
     .then((data) => {
       // Sử dụng đối tượng data ở đây
