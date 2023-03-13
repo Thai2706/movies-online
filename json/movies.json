@@ -1,12 +1,390 @@
 {
-  "id": 1,
-  "slug": "D2dujwQe2D",
-  "name": "Iron Man",
-  "year": 2008,
-  "country": "us",
-  "genres": [
-    "action",
-    "adventure",
-    "sci-fi"
-  ]
+  "iron_man": {
+    "slug": "D2dujwQe2D",
+    "name": "Iron Man",
+    "year": 2008,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "the_incredible_hulk": {
+    "slug": "SPmKxbm3u",
+    "name": "The Incredible Hulk",
+    "year": 2008,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "ant_man": {
+    "slug": "LaZBuXAnK",
+    "name": "Ant-Man",
+    "year": 2015,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "crime",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "ant_man_and_the_wasp": {
+    "slug": "HhLmA5vkW",
+    "name": "Ant-Man and the Wasp",
+    "year": 2018,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "avengers_age_of_ultron": {
+    "slug": "w4dRteFws",
+    "name": "Avengers: Age of Ultron",
+    "year": 2015,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "avengers_endgame": {
+    "slug": "mHnU0A9MB",
+    "name": "Avengers: Endgame",
+    "year": 2019,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "avengers_infinity_war": {
+    "slug": "1ADAjXSki",
+    "name": "Avengers: Infinity War",
+    "year": 2018,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "black_panther": {
+    "slug": "1ZPNILxfw",
+    "name": "Black Panther",
+    "year": 2018,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "black_widow": {
+    "slug": "59AVNkwB1",
+    "name": "Black Widow",
+    "year": 2021,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "captain_america_civil_war": {
+    "slug": "qjXwb-3H0",
+    "name": "Captain America: Civil War",
+    "year": 2016,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "captain_america_the_first_avenger": {
+    "slug": "xTtD2ubCh",
+    "name": "Captain America: The First Avenger",
+    "year": 2011,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "captain_america_the_winter_soldier": {
+    "slug": "iICZkYpxW",
+    "name": "Captain America: The Winter Soldier",
+    "year": 2014,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi",
+      "thriller"
+    ],
+    "cast": []
+  },
+  "captain_marvel": {
+    "slug": "qBwwp3ASg",
+    "name": "Captain Marvel",
+    "year": 2019,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "doctor_strange": {
+    "slug": "4THAbIzKK",
+    "name": "Doctor Strange",
+    "year": 2016,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "doctor_strange_in_the_multiverse_of_madness": {
+    "slug": "uEHEr6rvB",
+    "name": "Doctor Strange in the Multiverse of Madness",
+    "year": 2022,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "horror",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "eternals": {
+    "slug": "SJtVG3oDy4",
+    "name": "Eternals",
+    "year": 2021,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "guardians_of_the_galaxy": {
+    "slug": "hbfDvz131",
+    "name": "Guardians of the Galaxy",
+    "year": 2014,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "guardians_of_the_galaxy_vol_2": {
+    "slug": "w-Kf5dg_S",
+    "name": "Guardians of the Galaxy Vol. 2",
+    "year": 2017,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "iron_man_2": {
+    "slug": "lWW6rw3J0",
+    "name": "Iron Man 2",
+    "year": 2010,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "iron_man_3": {
+    "slug": "SZWCSI-w81",
+    "name": "Iron Man 3",
+    "year": 2013,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "shang_chi_and_the_legend_of_the_ten_rings": {
+    "slug": "_Eyr7KJBj",
+    "name": "Shang-Chi and the Legend of the Ten Rings",
+    "year": 2021,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "spider_man_far_from_home": {
+    "slug": "dfel3PE4O",
+    "name": "Spider-Man: Far from Home",
+    "year": 2019,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "spider_man_homecoming": {
+    "slug": "yvbiV5xx9",
+    "name": "Spider-Man: Homecoming",
+    "year": 2017,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "spider_man_no_way_home": {
+    "slug": "w4r09yRwd",
+    "name": "Spider-Man: No Way Home",
+    "year": 2021,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "the_avengers": {
+    "slug": "iYkNIsZPR",
+    "name": "The Avengers",
+    "year": 2012,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "sci-fi",
+      "thriller"
+    ],
+    "cast": []
+  },
+  "thor": {
+    "slug": "981AvVfKq",
+    "name": "Thor",
+    "year": 2011,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "thor_love_and_thunder": {
+    "slug": "tYi8UPmsc",
+    "name": "Thor: Love and Thunder",
+    "year": 2022,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy",
+      "romance",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "thor_ragnarok": {
+    "slug": "DzvyF5qXM",
+    "name": "Thor: Ragnarok",
+    "year": 2017,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "comedy",
+      "fantasy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "thor_the_dark_world": {
+    "slug": "46PAW8HR6",
+    "name": "Thor: The Dark World",
+    "year": 2013,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "fantasy",
+      "sci-fi"
+    ],
+    "cast": []
+  },
+  "black_panther_wakanda_forever": {
+    "slug": "HISWpIo40",
+    "name": "Black Panther: Wakanda Forever",
+    "year": 2022,
+    "country": "us",
+    "genres": [
+      "action",
+      "adventure",
+      "drama",
+      "fantasy",
+      "sci-fi",
+      "thriller"
+    ],
+    "cast": []
+  }
 }

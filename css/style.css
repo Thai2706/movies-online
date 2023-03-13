@@ -1,5 +1,9 @@
 * {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif !important;
+}
+
+body {
+  background-color: #1d1d1d;
 }
 
 #output video {
@@ -99,7 +103,7 @@ a:visited {
   align-items: center;
 }
 
-#player {
+#player-frame {
   width: 100vw;
   height: 42vw;
 }
